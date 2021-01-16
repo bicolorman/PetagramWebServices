@@ -3,6 +3,22 @@
 
 Mascotas, Recycler View, Presenter, Fragments, Acceso a la BD, Menus, WebServices 
 
+Informacion de Web Services.
+
+Se usa la nueva forma de acceder a las APIs de Instragram. tiene de restriccion solo se puede acceder a la informacion de cuentas de instragram bussiness. 
+
+Uso de Retrofit con Instagram. 
+
+Informacion de EndPoints y token del ejercicio.
+
+API Graph de Instagram con mi ID 17841444705301308 de la cuenta (petagram_4ndr01d)
+
+EndPoint con token Utilizado.
+
+https://graph.facebook.com/v9.0/17841444705301308?fields=business_discovery.username(instagram){username,profile_picture_url,followers_count,media_count,media{comments_count,like_count,media_url,caption,id}}&access_token=EAAFi1LZAbBZBoBAJEW9WFbGQGUf4ThuMdy7TAIEYLejlLwf0rV5DP0HoKc0zbZAJ7zBnVHCHhtZC2GET9AUzJNevcBIzCDtU6cHZAogdwGvEfMZBS1OkZCORPdshECdiJAWAUEo2Mg6tdZBOyGzYQcrymsWNSaxfGPEvwyPBLVP8DfQhPP1Q4VgO
+
+Docs.
+https://developers.facebook.com/docs/instagram-api/guides/business-discovery/
 
 
 ![](../../tree/master/screenshoot/1.png)
