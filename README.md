@@ -5,7 +5,7 @@ Mascotas, Recycler View, Presenter, Fragments, Acceso a la BD, Menus, WebService
 
 
 
-![](../../tree/master/screenshoot/petagram1.png)
+![](../../tree/master/screenshoot/1.png)
 
 Pantalla Principal - Con likes y acceso a la bd
 !['Imagen 1'](https://github.com/bicolorman/PetagramWebServices/tree/master/screenshoot/1.png?raw=true)
