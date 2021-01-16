@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="carview_margin">16dp</dimen>
+    <dimen name="carview_margin_pet">5dp</dimen>
+    <dimen name="nombre_dog">33dp</dimen>
+    <dimen name="like_dog">35sp</dimen>
+    <dimen name="title">24sp</dimen>
+    <dimen name="layout_top">20dp</dimen>
+    <dimen name="corner_radius_cardview">10dp</dimen>
+    <dimen name="nombre_cardview">20sp</dimen>
+    <dimen name="elevacion_actionbar">4dp</dimen>
+    <dimen name="boneIcon">38dp</dimen>
+    <dimen name="margen_formulario_contacto">10dp</dimen>
+    <dimen name="margen_formulario_contactotv">2dp</dimen>
+
+</resources>

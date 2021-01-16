@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="pmascota_name">Catty</string>
+    <string name="pmascota_likes">5</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_view">View Image</string>
+    <string name="menu_detail">View Image Detail</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_action_favoritos">Favoritos</string>
+    <string name="menu_action_Cuenta">Configurar Cuenta</string>
+    <string name="nombre_formulario">Nombre</string>
+    <string name="correo_formulario">Correo Electronico</string>
+    <string name="mensaje_formulario">Mensaje</string>
+    <string name="boton_formulario">Enviar Comentario</string>
+    <string name="mensaje_correo_satisfactorio">Correo Enviado Satisfactoriamente...</string>
+    <string name="mensaje_correo_insatisfactorio">Hubo un problema al enviar el correo y no pudo ser enviado...</string>
+    <string name="mensaje_vacio">Hay campos vacios en el formulario... </string>
+    <string name="mensaje_espera">Espere un segundo mientras se envia el correo.</string>
+    <string name="mensaje_subject">Mensaje from App Petagram - Especializacion Android</string>
+    <string name="about">Oscar Gonzalez - Estudiante de Especializacion en Android</string>
+    <string name="nombre_posts">petagram_4ndr01d</string>
+    <string name="boton_cuenta">Guardar Cuenta</string>
+    <string name="mensaje_cuenta_guardada">Se ha guardado la cuenta</string>
+
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lyGeneral"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include android:id="@+id/miactionBar" layout="@layout/actionbar"></include>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvNombreFormulario"
+        android:text="@string/nombre_formulario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margen_formulario_contactotv"
+        android:layout_below="@id/miactionBar"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etNombreFormulario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNombreFormulario"
+        android:layout_margin="@dimen/margen_formulario_contacto"
+        android:inputType="text"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvCorreoFormulario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etNombreFormulario"
+        android:text="@string/correo_formulario"
+        android:layout_margin="@dimen/margen_formulario_contactotv"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etCorreoFormulario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCorreoFormulario"
+        android:inputType="textWebEmailAddress"
+        android:layout_margin="@dimen/margen_formulario_contacto"
+
+       />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvMensajeFormulario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etCorreoFormulario"
+        android:text="@string/mensaje_formulario"
+        android:layout_margin="@dimen/margen_formulario_contactotv"
+        />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etMensajeFormulario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvMensajeFormulario"
+        android:layout_marginStart="@dimen/margen_formulario_contacto"
+        android:layout_marginLeft="@dimen/margen_formulario_contacto"
+        android:layout_marginTop="@dimen/margen_formulario_contacto"
+        android:layout_marginEnd="@dimen/margen_formulario_contacto"
+        android:layout_marginRight="@dimen/margen_formulario_contacto"
+        android:layout_marginBottom="@dimen/margen_formulario_contacto"
+        android:inputType="textMultiLine"
+        android:maxLines="4"
+        android:minLines="3"
+        android:singleLine="false" />
+
+    <Button
+        android:id="@+id/btEnviarComentarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton_formulario"
+        android:layout_margin="@dimen/margen_formulario_contacto"
+        android:theme="@style/BotonRaised"
+        android:layout_below="@id/etMensajeFormulario"/>
+
+
+</RelativeLayout>
